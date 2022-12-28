@@ -11,7 +11,7 @@ salida = np.array([[0],[1],[1],[0]])
 #Creacion de la arquitectura de la red
 modelo = Sequential()
 
-#agregar las capas de la red --> 16 capas ocultas, 2 neuronas de entrada
+#agregar las capas de la red --> 22 capas ocultas, 2 neuronas de entrada
 modelo.add(Dense(14,input_dim=2,activation='sigmoid'))
 modelo.add(Dense(8,activation='tanh'))
 #capa de salida
